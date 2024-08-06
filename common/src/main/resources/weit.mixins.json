@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "net.thewinnt.weit.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "minVersion": "0.8",
+  "client": [
+    "ItemEnchantmentsMixin"
+  ],
+  "mixins": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

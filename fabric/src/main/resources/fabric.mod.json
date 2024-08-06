@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "weit",
+  "version": "${version}",
+  "name": "Whose Enchantment Is This?",
+  "description": "Shows the mods that add enchantments so you never have to guess where it's from",
+  "authors": [
+    "TheWinNT"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": "https://github.com/thewinnt/weit"
+  },
+  "license": "MIT",
+  "icon": "assets/weit/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.thewinnt.weit.fabric.WeitFabric"
+    ]
+  },
+  "mixins": [
+    "weit.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": [
+      "~1.20.5",
+      "~1.20.6"
+    ],
+    "java": ">=21"
+  },
+  "suggests": {}
+}

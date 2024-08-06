@@ -1,0 +1,32 @@
+modLoader = "javafml"
+loaderVersion = "[2,)"
+#issueTrackerURL = ""
+license = "MIT"
+
+[[mods]]
+modId = "weit"
+version = "${version}"
+displayName = "Whose Enchantment Is This?"
+authors = "TheWinNT"
+description = '''
+Shows the mods that add enchantments so you never have to guess where it's from
+'''
+#logoFile = ""
+
+[[dependencies.weit]]
+modId = "neoforge"
+type = "required"
+versionRange = "[20.5,)"
+ordering = "NONE"
+side = "CLIENT"
+
+[[dependencies.weit]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.20.5,1.20.6]"
+ordering = "NONE"
+side = "CLIENT"
+
+
+[[mixins]]
+config = "weit.mixins.json"
